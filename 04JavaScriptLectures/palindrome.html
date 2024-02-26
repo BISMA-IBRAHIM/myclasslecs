@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+
+        var name = prompt("Enter Your name")
+        // document.write(name.length);
+
+        var myname = "";
+
+
+
+        for (let index = name.length - 1; index >= 0; index--) {
+
+            myname += name[index]
+
+
+        }
+
+       if (myname==name) {
+        document.write("Its a palindrome ="+name)
+
+       }else{
+        document.write("Its not a palindrome ="+name)
+       }
+
+
+    </script>
+</body>
+
+</html>

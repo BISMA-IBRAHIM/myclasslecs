@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+    <script>
+
+
+        var studentname = [
+            "bisma ", "misbah", "wahaj", "sami", "ali", "talha",
+            "bisma ", "misbah", "wahaj", "sami", "ali", "talha",
+            "bisma ", "misbah", "wahaj", "sami", "ali", "talha",
+            "bisma ", "misbah", "wahaj", "sami", "ali", "talha",
+            "bisma ", "misbah", "wahaj", "sami", "ali", "talha",
+            "bisma ", "misbah", "wahaj", "sami", "ali", "talha", 
+            "bisma ", "misbah", "wahaj", "sami", "ali", "talha",
+            "bisma ", "misbah", "wahaj", "sami", "ali", "talha",
+            "bisma ", "misbah", "wahaj", "sami", "ali", "talha"
+        ];
+        var age = [
+            
+        "34 ", "50", "70", "75", "23", "56",
+        "34 ", "50", "70", "75", "23", "56",
+        "34 ", "50", "70", "75", "23", "56",
+        "34 ", "50", "70", "75", "23", "56",
+        "34 ", "50", "70", "75", "23", "56",
+        "34 ", "50", "70", "75", "23", "56",
+        "34 ", "50", "70", "75", "23", "56",
+        "34 ", "50", "70", "75", "23", "56",
+        "34 ", "50", "70", "75", "23", "56",
+        "34 ", "50", "70", "75", "23", "56",
+    
+    
+    
+    ];
+        var subjects = [
+            "islamiyat", "english", "hadith", "politics", "pst", "chinese",
+            "islamiyat", "english", "hadith", "politics", "pst", "chinese",
+            "islamiyat", "english", "hadith", "politics", "pst", "chinese",
+            "islamiyat", "english", "hadith", "politics", "pst", "chinese",
+            "islamiyat", "english", "hadith", "politics", "pst", "chinese",
+            "islamiyat", "english", "hadith", "politics", "pst", "chinese",
+            "islamiyat", "english", "hadith", "politics", "pst", "chinese",
+            "islamiyat", "english", "hadith", "politics", "pst", "chinese",
+            "islamiyat", "english", "hadith", "politics", "pst", "chinese",
+            
+        
+        
+        ];
+
+    </script>
+
+
+
+
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>SNO</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Fav-Subject</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            <script>
+                counter = 1;
+                for (const items in studentname) {
+
+
+
+                    document.write("<tr> <td> " + counter++ + "</td>")
+                    document.write("<td> " + studentname[items] + "</td>")
+                    document.write("<td> " + age[items] + "</td>")
+                    document.write("<td> " + subjects[items] + "</td></tr>")
+
+                }
+
+            </script>
+        </tbody>
+
+
+    </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

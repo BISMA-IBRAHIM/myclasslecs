@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        .container {
+
+            background-color: teal;
+            height: 50px;
+            display: flex;
+
+
+            /* horizontly content */
+            justify-content: center;
+
+            /* vertically content */
+            align-items: center;
+
+
+
+            
+
+        }
+
+
+        .items {
+            margin: 10px;
+        }
+
+
+        a{
+            text-decoration: none;
+            font-size: 20px;
+            color: aliceblue;
+        }
+
+
+
+        a:hover:not(.myactivepage){
+            background-color: aliceblue;
+            color: teal;
+            padding: 10px;
+        }
+
+
+        .myactivepage {
+            background-color: aliceblue;
+            color: red;
+            padding: 10px;
+
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="items" > <a href="assignmenthint .html"  class="myactivepage" >  Home</a></div>
+        <div class="items"> <a href="#">  About</a></div>
+        <div class="items"> <a href="#">  Contact</a></div>
+        <div class="items"> <a href="#">  Services</a></div>
+
+
+    </div>
+
+
+
+
+</body>
+
+</html>
